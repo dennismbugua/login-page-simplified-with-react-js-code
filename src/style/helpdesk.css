@@ -1,0 +1,103 @@
+.sideTab.sideTab-helpdesk {
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+
+.sideTab.sideTab-helpdesk {
+  font-size: 15px;
+  /* color: rgba(0, 81, 255, 0.712); */
+}
+.sideTab.sideTab-helpdesk .activeTab {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.helpdesk-tab-view {
+  min-height: 65vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.tab-view-left-icon {
+  padding: 12px 20px;
+  font-size: 40px;
+  color: #800080 !important;
+}
+.tab-view-right-content {
+  padding: 20px 0px;
+}
+.tab-view-right-content h5 {
+  font-size: 16px;
+  color: rgba(0, 89, 255, 0.808);
+  margin-bottom: 0;
+}
+.tab-view-right-content .sub-heading {
+  font-weight: 5 00;
+}
+
+.ticket-add-form {
+  padding: 0px 100px;
+  background-color: #fff;
+}
+
+/* =========================== Ticket details */
+.ticket-details {
+  background-color: #fff;
+  min-height: 480px;
+}
+
+.ticket-details-activity {
+  padding: 0px 0px 0px 22px;
+}
+
+.ticket-details-activity h5 {
+  font-size: 0.969rem;
+}
+
+.ticket-details-activity .time-date {
+  font-size: 0.669rem;
+}
+
+.ticket-details-activity-comments {
+  /* display: flex; */
+  margin-left: 10px;
+}
+
+.ticket-details-activity-comments h6 {
+  font-size: 0.789rem;
+  color: rgb(10, 10, 10);
+}
+
+.ticket-details-activity-comments {
+  font-size: 0.789rem;
+  color: rgb(107, 106, 106);
+}
+
+.ticket-details-activity-other {
+  font-size: 0.789rem;
+  font-weight: 500;
+  color: rgb(107, 106, 106);
+}
+
+.ticket-details-activity-other b {
+  color: rgb(0, 0, 0);
+}
+
+.ticket-operation {
+  padding: 20px 20px 10px 20px;
+}
+
+.ticket-operation i {
+  width: 20px;
+}
+
+.ticket-operation .link {
+  color: rgb(0, 110, 255);
+}
+
+.shared-with {
+  padding: 0px 20px;
+}
+.shared-with h5 {
+  font-size: 0.969rem;
+}

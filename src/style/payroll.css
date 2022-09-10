@@ -1,0 +1,23 @@
+.btn-genrateSalaryBreakUp {
+  position: fixed;
+  bottom: 40px;
+  left: 600px;
+}
+
+.salary-breakup-template {
+  padding: 0rem 4rem;
+}
+
+.calender-procee-salary {
+  position: absolute;
+  right: 0;
+}
+
+.date-label-salary-report {
+  position: relative;
+}
+.date-label-salary-report span {
+  position: absolute;
+  top: -20px;
+  left: 0;
+}

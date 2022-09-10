@@ -1,0 +1,188 @@
+@import "./sideBar.css";
+@import "./adminDashbord.css";
+@import "./adminSettings.css";
+@import "./employee.css";
+@import "./projects.css";
+@import "./tasks.css";
+@import "./payroll.css";
+@import "./helpdesk.css";
+
+body {
+  /* font-family: "Saira", sans-serif; */
+  /* font-family: "Varela Round", sans-serif; */
+  /* overflow: hidden; */
+}
+/* .scroll-section {
+  max-height: 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+} */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.ml-60 {
+  margin-left: 60px;
+}
+
+.card {
+  border-radius: 5px;
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2); */
+  margin-bottom: 10px;
+}
+
+.btn-color {
+  background-color: #0c3747 !important;
+  border: 0;
+}
+
+/* toggle btn */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 54px;
+  height: 30px;
+}
+
+.switch .toggleBtn {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(240, 1, 73);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.toggleBtn:checked + .slider {
+  background-color: #27ca11;
+}
+
+.toggleBtn:focus + .slider {
+  box-shadow: 0 0 1px #27ca11;
+}
+
+.toggleBtn:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* cicle icon */
+.circle-icon {
+  /* background: #ffc0c0; */
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.rightNav {
+  /* display: none; */
+  text-align: right !important;
+}
+.rightNav ul {
+  text-align: right !important;
+}
+
+li {
+  list-style-type: none !important;
+}
+
+table thead {
+  font-size: 12px;
+}
+
+table tr td {
+  font-size: 12px;
+}
+table tr {
+  /* height: -100px; */
+  /* margin-top: 100px; */
+}
+
+.paginate {
+  display: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.dropDown-action {
+  position: absolute;
+  text-align: right;
+  top: 2px;
+  right: 4px;
+}
+
+/* date picker style */
+.react-datepicker__input-container input {
+  width: 100%;
+  height: 38px;
+  border: 1px solid rgba(194, 189, 189, 0.575);
+  border-radius: 4px;
+}
+
+.show__inMobile {
+  display: none;
+}
+
+/* in mobile */
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* table with pagination. */
+  .table-with-pagination .main-div {
+    width: 280px;
+    overflow: auto;
+  }
+  .show__inMobile {
+    display: block;
+  }
+}
+
+/* in tablet */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}

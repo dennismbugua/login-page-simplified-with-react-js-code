@@ -1,0 +1,92 @@
+.admin-settings {
+  /* border-radius: 10px;
+  background-color: rgba(179, 175, 175, 0.253); */
+}
+
+.admin-settings-card {
+  background-color: #333;
+}
+
+.card-tile {
+  background: linear-gradient(to bottom right, #718288 0%, #063244 100%);
+  border: 0px;
+  box-shadow: 10px 10px 10px rgba(82, 80, 80, 0.356);
+  font-size: 11px;
+  /* box-shadow: 4px 5px #aaa8a87e; */
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.card-tile:hover {
+  top: -5px;
+}
+
+.btn-admin-settings {
+  border: 2px solid rgb(82, 141, 197);
+  color: rgb(82, 141, 197);
+}
+
+.btn-cancel {
+  border: 2px solid rgb(223, 114, 52);
+  color: rgb(223, 114, 52);
+}
+
+/* Roles and persmission  */
+/* admin Nav */
+.sideTab {
+  /* background: linear-gradient(to bottom right, #718288 0%, #063244 100%); */
+  border: 1px solid rgba(117, 117, 117, 0.253);
+  /* border-radius: 7px; */
+  font-size: 14px;
+}
+.sideTab .tabName {
+  border: 0px;
+}
+.sideTab .tabName:hover {
+  background: #bdc6ca70;
+  border-radius: 0px;
+  border-left: 4px solid #063244;
+}
+.sideTab .activeTab {
+  /* border: 0px; */
+  /* color: rgb(63, 245, 8); */
+  /* margin-left: 5px; */
+  border-radius: 0px;
+  border-left: 4px solid #063244;
+  font-size: 20px;
+}
+
+.module-access-row {
+  height: 30px;
+  font-size: small;
+  font-weight: 500;
+}
+
+/* edit-icon */
+.sideTab .edit-icon {
+  font-size: 12px;
+  opacity: 0.7;
+  display: none;
+}
+.sideTab .tabName:hover .edit-icon {
+  display: block;
+}
+
+.companyLocation-submit {
+  margin-top: 30px;
+}
+/* in mobile */
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+}
+
+/* in tablet */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+
+/* in desktop */
+@media screen and (min-device-width: 1200px) and (max-device-width: 2600px) {
+  .companyLocation-submit {
+    margin-top: 30px;
+  }
+}

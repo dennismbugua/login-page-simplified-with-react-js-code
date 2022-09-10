@@ -1,0 +1,121 @@
+.admin-dash-widget-icon {
+  background-color: #0c374757 !important;
+  /* display: inline-block; */
+  color: #0c3747;
+  border-radius: 100%;
+  float: left;
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+  height: 60px;
+  width: 60px;
+}
+.admin-dash-widget-info {
+  text-align: right;
+}
+.admin-dash-widget-info > h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.admin-dash-widget-info > span {
+  font-size: 16px;
+  font-weight: 500;
+}
+/* Revenu section ---------------------------------------------- */
+.admin-dash-revenu-titile {
+  font-size: 0.89rem;
+
+  font-weight: 500;
+}
+.admin-dash-revenu-value {
+  font-size: 1.3rem;
+}
+.admin-dash-revenu-p {
+  color: #000000;
+  font-size: 0.789rem;
+  font-weight: 500;
+}
+
+/* Statistics ------------------------------------------------- */
+.statistics .card {
+  height: 355px;
+  overflow-y: auto;
+}
+.statistics-list {
+  overflow-y: auto;
+}
+
+.statistics-list-info {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.statistics-list-info p {
+  display: flex;
+  color: #000000;
+  font-weight: 500;
+  font-size: 11px;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+/* Task Statistics --------------------------------------- */
+.task-statistics {
+  height: 100%;
+  /* min-height: 362px; */
+}
+.task-statistic-top-row {
+  text-align: center;
+  justify-content: center;
+}
+
+.task-statistic-top-row .box {
+  border: 1px solid #e5e5e5;
+  background-color: #f9f9f9;
+  padding: 5px 20px 0px 20px;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.task-statistic-top-row p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.task-statistics-task-list p {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Today Leaves ---------------------- */
+.leave-info-box {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.leave-candidate-name {
+  font-size: 0.886rem;
+  line-height: 40px;
+}
+.leave-deatils {
+  display: flex;
+  justify-content: space-between;
+}
+.leave-date h6,
+span {
+  font-size: 0.865rem;
+  font-weight: 500;
+}
+.leave-status {
+  line-height: 45px;
+}
+
+/* admin table ---------------------------------------------- */
+.admin-dash-tables .card-body {
+  height: 400px;
+}

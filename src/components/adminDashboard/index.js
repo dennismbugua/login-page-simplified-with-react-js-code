@@ -1,0 +1,11 @@
+export { default as TopRow } from "./topRow/TopRow";
+export { default as BarGraph } from "./graph/BarGraph";
+export { default as MixedGraph } from "./graph/MixedGraph";
+export { default as AllRevenu } from "./Revenu/AllRevenu";
+export { default as AllStatistics } from "./stattistics/AllStatistics";
+export { default as TaskStatistics } from "./stattistics/TaskStatistics";
+export { default as Absents } from "./stattistics/Absents";
+export { default as InvoiceTable } from "./tables/InvoiceTable";
+export { default as PaymentTable } from "./tables/PaymentTable";
+export { default as ClientTable } from "./tables/ClientTable";
+export { default as RecentProject } from "./tables/RecentProject";
